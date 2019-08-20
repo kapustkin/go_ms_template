@@ -9,11 +9,12 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${fileDirname}",
+            "program": "${workspaceRoot}/main.go",
             "env": {},
             "args": [
-                "d:\\Documents\\Lesson_12\\envdir\\test\\1",
-                "cmd.exe"
+                "--port", "5001",
+                "--host", "localhost",
+                "--log", "2"
             ],  
             "cwd": "${workspaceRoot}", 
             "showLog": false
